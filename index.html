@@ -3,29 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal Digital Kurikulum</title>
+  <title>Dashboard Wakasek Kurikulum | SMP Al Muttaqin</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Font & Icon -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0e6ad5f.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <img src="assets/logo.png" alt="Logo SMP Al Muttaqin" height="60">
-    <h1>Portal Digital Kurikulum SMP Al Muttaqin</h1>
-    <nav>
-      <a href="kurikulum/">Kurikulum</a>
-      <a href="study/">Study</a>
-      <a href="about/">Tentang</a>
-    </nav>
+    <img src="assets/img/logo.png" alt="Logo Sekolah" class="logo">
+    <h1>Dashboard Wakasek Kurikulum</h1>
+    <h2>SMP Al Muttaqin Tasikmalaya</h2>
   </header>
 
+  <!-- Navigasi -->
+  <nav>
+    <ul>
+      <li><a href="#manajerial">Manajerial</a></li>
+      <li><a href="#supervisi">Supervisi</a></li>
+      <li><a href="#inovasi">Inovasi</a></li>
+      <li><a href="#dokumentasi">Dokumentasi</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Selamat Datang di Portal Digital Kurikulum</h2>
+    <p>Mengelola, Mengawasi, dan Menginovasi demi mutu pendidikan SMP Al Muttaqin.</p>
+  </section>
+
+  <!-- Konten -->
   <main>
-    <section>
-      <h2>Selamat Datang</h2>
-      <p>Portal ini dibuat untuk mendukung penilaian kinerja Wakil Kepala Sekolah bidang Kurikulum.</p>
+    <section id="manajerial">
+      <h3>🟡 Manajerial</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Uraian Tugas</th>
+            <th>Bukti Fisik</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Menyusun atau merevisi KTSP/KOSP</td>
+            <td>Dokumen KTSP/KOSP</td>
+            <td><a href="https://drive.google.com/" target="_blank">📂 Lihat</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Koordinasi tim pengembang kurikulum</td>
+            <td>Berita acara & daftar hadir</td>
+            <td><a href="https://drive.google.com/" target="_blank">📂 Lihat</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="supervisi">
+      <h3>🔵 Supervisi</h3>
+      <p>Isi tabel supervisi di sini...</p>
+    </section>
+
+    <section id="inovasi">
+      <h3>🔴 Inovasi Kurikulum</h3>
+      <p>Isi tabel inovasi di sini...</p>
+    </section>
+
+    <section id="dokumentasi">
+      <h3>📷 Dokumentasi & Laporan</h3>
+      <iframe src="https://drive.google.com/embeddedfolderview?id=YOUR_FOLDER_ID#list" style="width:100%; height:400px; border:0;"></iframe>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 SMP Al Muttaqin Tasikmalaya</p>
+    <p>© 2025 SMP Al Muttaqin Tasikmalaya | Wakasek Kurikulum</p>
   </footer>
 </body>
 </html>
